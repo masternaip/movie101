@@ -4,7 +4,7 @@ const API_KEY = 'a1e72fd93ed59f56e6332813b9f8dcae';
     let currentItem;
 
     async function fetchTrending(type) {
-      const res = await fetch(`${BASE_URL}/trending/${type}/adult?api_key=${API_KEY}`);
+      const res = await fetch(`${BASE_URL}/trending/${type}/week?api_key=${API_KEY}`);
       const data = await res.json();
       return data.results;
     }
