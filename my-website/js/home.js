@@ -1,7 +1,7 @@
 {
   "API_KEY": "d0a9548a34ac3ef26148ec87f5f35618",
-  "BASE_URL": "https://api.themoviedb.org/3",
-  "IMG_URL": "https://image.tmdb.org/t/p/w500",
+  "BASE_URL": "https://api.app.porndb.me/3",
+  "IMG_URL": "https://image.app.porndb.meg/t/p/w500",
   "functions": [
     {
       "name": "fetchTrending",
