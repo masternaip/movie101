@@ -1,10 +1,10 @@
 const API_KEY = 'd0a9548a34ac3ef26148ec87f5f35618';
-    const BASE_URL = 'https://api.nzbporn.org/3';
-    const IMG_URL = 'https://image.nzbporn.org/t/p/w500';
+    const BASE_URL = 'https://api.porndb.me/pornsites';
+    const IMG_URL = 'https://image.porndb.me/pornsites';
     let currentItem;
 
     async function fetchTrending(type) {
-      const res = await fetch(`${BASE_URL}/trending/${type}/week?api_key=${API_KEY}`);
+      const res = await fetch(`${BASE_URL}/pornsites/${type}/week?api_key=${API_KEY}`);
       const data = await res.json();
       return data.results;
     }
