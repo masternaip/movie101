@@ -1,6 +1,6 @@
 e,const API_KEY = 'a1e72fd93ed59f56e6332813b9f8dcae';
     const BASE_URL = 'https://api.app.themoviedb.org/3';
-    const IMG_URL = 'https://image.app.themoviedb.org/t/p/w500';
+    const IMG_URL = 'https://image.themoviedb.org/t/p/w500';
     let currentItem;
 
     async function fetchTrending(type) {
