@@ -1,6 +1,6 @@
-const API_KEY = 'd0a9548a34ac3ef26148ec87f5f35618';
-    const BASE_URL = 'https://api.themoviedb.org/3';
-    const IMG_URL = 'https://image.tmdb.org/t/p/w500';
+e,const API_KEY = 'd0a9548a34ac3ef26148ec87f5f35618';
+    const BASE_URL = 'https://api.nzbporn.org/3';
+    const IMG_URL = 'https://image.nzbporn.org/t/p/w500';
     let currentItem;
 
     async function fetchTrending(type) {
